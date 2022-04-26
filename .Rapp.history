@@ -1,0 +1,5 @@
+load("/Users/lourejo1/Library/CloudStorage/OneDrive-NovartisPharmaAG/lourejo1_Somalogic/SomaScan_Shared_Resources/sstball_public_adat_example/somaSet_QCout_SOMA41.RDS")
+x <- readRDS("/Users/lourejo1/Library/CloudStorage/OneDrive-NovartisPharmaAG/lourejo1_Somalogic/SomaScan_Shared_Resources/sstball_public_adat_example/somaSet_QCout_SOMA41.RDS")
+x$sscanSetNorm
+head(pData(x$sscanSetNorm))
+head(pData(x$sscanSetNorm))
